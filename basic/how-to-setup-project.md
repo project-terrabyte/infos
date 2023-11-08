@@ -1,15 +1,23 @@
 # 目次
 
 - [1. GitHub Organization への登録](#1-github-organization-への登録)
-- [2. プロジェクトのプル](#2-プロジェクトのプル)
-- [3. VisualStudioCodeのセットアップ](#3-visualstudiocodeのセットアップ)
+- [2. GithubDesktopへログイン](#2-githubdesktopへログイン)
+- [2. プロジェクトのプル](#3-プロジェクトのプル)
+- [3. VisualStudioCodeのセットアップ](#4-visualstudiocodeのセットアップ)
 
 # 1. GitHub Organization への登録
 1. まず、登録いただいたGitHubアカウントのユーザーネームを @KaRU3-dev のDiscordもしくはプログラム班の雑談にてお知らせください。
 2. 随時チームへの招待を送信するので、メールのほうの確認をお願いします。
 3. 参加でき次第、その旨をお伝えします。
 
-# 2. プロジェクトのプル
+# 2. GithubDesktopへログイン
+1. Github Desktopの左上の`File`から`options`を選択します。
+2. `Github.com`の近くにある`Sign in`ボタンを押します。
+3. ブラウザが開かれるのでGitHubにログインしてください。
+4. `options`画面内の`Git`タブへ移動し、`Email`の項目をGitHubより提供されている`000000000+username@users.noreply.github.com`に変更してください。
+5. `options`画面を閉じてください。
+
+# 3. プロジェクトのプル
 1. まず、GitHub Desktopを開いてください。
 2. 左上の `File` 項目から `Clone Repository...` を選択してください。
 3. その中の `URL` タブに移動して下さい。
@@ -19,7 +27,7 @@
 7. `Local path` を任意の場所に指定した後に、`Clone` と書かれた青いボタンを押します。
 8. これでクローンは完了です。
 
-# 3. VisualStudioCodeのセットアップ
+# 4. VisualStudioCodeのセットアップ
 1. 日本語にしたい場合、VScodeの左端の垂直タブバーにある `Extension` タブを開きます。
 2. 検索欄があるのでそこに `Japanese Language Pack` と入力してください。
 3. 見つけることができたら、`install` ボタンをクリックし、ダウンロードが完了したらVScodeの再起動を行ってください。
