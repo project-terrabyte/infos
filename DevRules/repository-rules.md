@@ -25,4 +25,4 @@ Copyright (c) ProjectTerra All rights reserved.
 
 Created by <GitHub-Username> in yyyy/mm/dd
 ```
-- ただし、全ての成果物は[`copyrights-rules`](./DevRules/copyrights-rules.md)に従います。
+- ただし、全ての成果物は[`copyrights-rules`](./copyrights-rules.md)に従います。
