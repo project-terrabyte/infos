@@ -12,6 +12,7 @@ using UnityEngine;
 
 // 全ての作成したスクリプトは名前空間に属する
 namespace ExampleNamespace { // 単語の先頭を大文字とするパスカルケースを採用する
+    // インデントは、スペース4つ
     // 全てのスクリプトはpublicで作成する
     public class ExampleClass { // 単語の先頭を大文字とするパスカルケースを採用する
         // 変数は処理よりも前にまとめて記述する
