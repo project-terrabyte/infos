@@ -1,7 +1,7 @@
 ## 目次
 - [必要ソフトウェアのセットアップ](#必要ソフトウェアのセットアップ)
 - [リポジトリのセットアップ](#リポジトリのセットアップ)
-- [Unityのテンプレートスクリプトのセットアップ](#Unityのテンプレートスクリプトのセットアップ)
+- [Unityのテンプレートスクリプトのセットアップ](#unityのテンプレートスクリプトのセットアップ)
 
 #
 
@@ -29,11 +29,11 @@
 3. Unity 2022.X系統のバージョンが表示されているので、その中から `Unity 2022.3.1f1`を見つけ、UnityHubボタンをクリックしてください。
 4. UnityHubが起動し、ダウンロードが始められるようになります。
 5. Add Modulesの画面で以下の項目にチェックを入れます。<br>
-    [x] Linux Build Support (IL2CPP)<br>
-    [x] Linux Build Support (Mono)<br>
-    [x] Mac Build Support (Mono)<br>
-    [x] Universal Windows Platform Build Support<br>
-    [x] Windows Build Support (IL2CPP)
+    - Linux Build Support (IL2CPP)<br>
+    - Linux Build Support (Mono)<br>
+    - Mac Build Support (Mono)<br>
+    - Universal Windows Platform Build Support<br>
+    - Windows Build Support (IL2CPP)
 6. 規約の同意を求められるので、全て同意してインストールを開始してください。
 
 ### VisualStudio Codeのインストール
@@ -84,7 +84,7 @@
     echo Git configuration script for Windows
     echo -----------------------------------------------------
 
-    echo Donwloading github repository...
+    echo Downloading github repository...
     git clone %repository% %dirName%
 
     echo Configure your account...
@@ -105,10 +105,10 @@
 4. 保存してファイルを閉じて、[テキストファイルの拡張子](https://support.hp.com/jp-ja/document/c01967336)を`.txt`から`.bat`に変更します。
 5. .batファイルをダブルクリックして実行してください。
 7. 色々聞かれるので順番に以下の内容を入力してください。
-    1. Enter your GitHub username: あなたのGitHubのユーザーネームを入力してください。
-    2. Enter your GitHub email: あなたのGitHubの[メールアドレス](https://github.com/settings/emails)を入力してください。
-    3. Enter target repository URL: https://github.com/project-terrabyte/Game.git を入力してください。
-    4. What directory name do you want?: 好きなフォルダ名を入力してください。<br>
+    - Enter your GitHub username: あなたのGitHubのユーザーネームを入力してください。
+    - Enter your GitHub email: あなたのGitHubの[メールアドレス](https://github.com/settings/emails)を入力してください。
+    - Enter target repository URL: https://github.com/project-terrabyte/Game.git を入力してください。
+    - What directory name do you want?: 好きなフォルダ名を入力してください。<br>
     以下のようになればエンターを押して下さい。
     ```cmd
     Enter your GitHub username
@@ -141,6 +141,8 @@
 4. その中にある、`81-C# Script-NewBehaviourScript.cs.txt`を複製して、元あったファイルの末尾を`~.cs.txt.old`としてください。
 5. 複製してできたファイルを開き、以下のコードに置き換えてください。
     ```csharp
+    // Description: 
+    // Author: https://github.com/
     using System.Collections;
     using System.Collections.Generic;
     using UnityEditor;
