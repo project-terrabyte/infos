@@ -1,4 +1,5 @@
 # コーディングルール
+基本的に、[C# Google Style](https://google.github.io/styleguide/csharp-style.html)に準拠する
 以下にコーディングルールに沿った例を示す。
 ```csharp
 /**
