@@ -2,10 +2,8 @@
 基本的に、[C# Google Style](https://google.github.io/styleguide/csharp-style.html)に準拠する<br>
 以下にコーディングルールに沿った例を示す。
 ```csharp
-/**
- * ここにこのファイルの内容の要約を書く
- * Author: githubのアカウントURLを張り付ける
-*/
+// Description: ここにこのファイルの内容の要約を書く
+// Author: https://github.com/<username>
 using System.Collections; // using は全てコードの上に配置し、必要のないusingは使用しない
 using System.Collections.Generic; // 自動生成で使わないusingは削除する
 using UnityEditor;
