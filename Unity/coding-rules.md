@@ -1,6 +1,6 @@
 # コーディングルール
 基本的に、[C# Google Style](https://google.github.io/styleguide/csharp-style.html)に準拠する<br>
-以下にコーディングルールに沿った例を示す。
+以下にGoogleStyleとは違う個所を示す
 ```csharp
 // Description: ここにこのファイルの内容の要約を書く
 // Author: https://github.com/<username>
