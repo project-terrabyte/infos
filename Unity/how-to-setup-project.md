@@ -14,14 +14,12 @@
 - GitHub
 - Miro
 - GoogleDrive
-- Microsoft 365 ( の一部 )
 
 ### アカウントの作成
 - [Unity](https://id.unity.com/ja/)
 - [GitHub](https://github.com/login) (アカウントを作成した後に、KaRU3まであなたのユーザーネームを知らせてください。組織に追加します。)
 - [Miro](https://miro.com/ja/login/)
 - [Google](https://takeout.google.com/?hl=ja)
-- [Microsoft](https://account.microsoft.com/account?lang=ja-jp)
 
 ### Unity2022.3.1f1のインストール
 1. [Unity Hubインストーラー](https://unity.com/ja/download)をダウンロードし、インストールしてください。
